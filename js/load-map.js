@@ -11,7 +11,7 @@ var map = L.mapbox.map('map', 'mapbox.high-contrast', { // Create a new map usin
     maxBounds: bounds, // set the maximum pan boundaries to bounds
     maxZoom: 19, // set how far into the map you can zoom to level 19
     minZoom: 15  // set how far out from the map you can zoom to level 15
-  }).setView([40.7967, -77.8619], 18); // set the map view to those coordinates and zoom level 18 (Old Main)
+  }).setView([40.7967, -77.8619], 15); // set the map view to those coordinates and zoom level 18 (Old Main)
 
 var emergencyOverlay = L.mapbox.tileLayer("eis5187.pg44pldi").addTo(map);
 
